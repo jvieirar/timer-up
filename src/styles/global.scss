@@ -1,0 +1,19 @@
+@import './base.scss';
+
+html {
+  font-family: var(--pp-baseFontFamily);
+  font-weight: var(--pp-baseFontWeight);
+  color: var(--pp-baseFontColor);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: var(--pp-headingFontWeight);
+}
+
+strong {
+  font-weight: var(--pp-headingFontWeight);
+}

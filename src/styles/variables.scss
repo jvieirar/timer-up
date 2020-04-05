@@ -1,0 +1,56 @@
+:root {
+  // colors
+  --pp-burntBlack: #000;
+  --pp-burntWhite: #fff;
+  --pp-licoriceBlack: #141414;
+  --pp-softBlack: #2d2d2d;
+  --pp-columbiaGrey: #c7cedb;
+  --pp-zaffreBlue: #220daa;
+  --pp-sandStormYellow: #f2d637;
+  --pp-carmineRed: #ef4340;
+  --pp-softSandstone: #e4e0d9;
+  --pp-graniteGrey: #717171;
+  --pp-softGraniteGrey: #eaeaea;
+  --pp-darkGrey: #666;
+  --pp-darkSandstone: #a09179;
+  --pp-brightGreen: #00cc99;
+  --pp-brightRed: #d0021b;
+  --pp-brightOrange: #ffa41a;
+  --pp-tangeloOrange: #ea6f23;
+  --pp-softPurple: #681da8;
+  --pp-softGrey: #efefef;
+
+  // theme
+  --pp-primaryColor: var(--pp-zaffreBlue);
+  --pp-secondaryColor: var(--pp-tangeloOrange);
+  --pp-primaryFontColor: var(--pp-burntWhite);
+  --pp-secondaryFontColor: var(--pp-graniteGrey);
+  --pp-baseFontColor: var(--pp-licoriceBlack);
+  --pp-baseVariantFontColor: var(--pp-graniteGrey);
+  --pp-baseFontFamily: 'Proxima Nova Rg', sans-serif;
+  --pp-headingFontWeight: 500;
+  --pp-baseFontWeight: 400;
+
+  // box-model
+  --pp-paddingSides: 16px;
+
+  // breakpoints
+  --pp-breakpointXSmall: 390;
+  --pp-breakpointSmall: 576;
+  --pp-breakpointMedium: 768;
+  --pp-breakpointLarge: 992;
+  --pp-breakpointXLarge: 1200;
+
+  // map vars
+  --pp-locationListWidth: 580px;
+
+  // layers
+  --pp-layerBase: 0;
+  --pp-layerXLow: 100;
+  --pp-layerLow: 300;
+  --pp-layerMedium: 500;
+  --pp-layerTop: 700;
+  --pp-layerMax: 900;
+  --pp-layerHeader: 1000;
+  --pp-layerModal: 1100;
+}

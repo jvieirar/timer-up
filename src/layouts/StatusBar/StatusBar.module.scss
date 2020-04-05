@@ -1,0 +1,11 @@
+.statusBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: var(--pp-primaryColor);
+  color: var(--pp-primaryFontColor);
+  max-height: 150px;
+}
